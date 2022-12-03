@@ -37,7 +37,7 @@ function getDupps( first, second, third, problem ) {
                 if( duplicate == second[x] ) {
                     for( let z = 0; z < third.length; z++ ) {
                         if ( duplicate == third[z]) {
-                            return third[z]
+                            return duplicate
                         }
                     }
                 }
