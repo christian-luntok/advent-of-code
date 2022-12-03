@@ -55,7 +55,7 @@ currentData.forEach( (item, index, arr) => {
     let wordDuplicate = getDupps(firstHalf, secondHalf, '', 'first')
     if ( wordDuplicate == wordDuplicate.toLowerCase() ) {
        sum += lowerPriority[wordDuplicate]
-    } else if ( wordDuplicate.toUpperCase()) {
+    } else {
        sum += upperPriority[wordDuplicate]
     }
 })
