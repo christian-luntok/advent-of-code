@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { parse } = require("path");
 
 const currentData = fs.readFileSync('input.txt', 'utf-8').toString().split('\n')
 
